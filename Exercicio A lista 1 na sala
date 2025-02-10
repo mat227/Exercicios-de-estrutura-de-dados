@@ -1,0 +1,15 @@
+
+//a)Solicite ao usuario as dimensões x y e z para uma matriz tridimensional (matriz 3d) de inteiros.
+int main()
+{
+    int x,y,z;
+    printf("Digame as dimensões da matriz que deseja construir X Y Z\n");
+        printf("Dimensão de X:");
+    scanf("%d", &x);
+        printf("Dimensão de Y:");
+    scanf("%d", &y);
+        printf("Dimensão de z:");
+    scanf("%d", &z);
+    printf("Obbrigado, sua matriz ficou X=%d Y=%d Z=%d",x,y,z);
+    return 0;
+}
